@@ -16,7 +16,7 @@ Una API RESTful construida con **Flask**, **SQLite** y **JWT** que permite regis
 
 ## Instalación
 
-1. Clona el repositori:
+1. Clona el repositorio:
 
 ```bash
 git clone https://github.com/DiExX-23/api-tareas-flask.git
