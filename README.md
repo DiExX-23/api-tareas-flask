@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # API de Tareas con Flask
 
 Una API RESTful construida con **Flask**, **SQLite** y **JWT** que permite registrar usuarios, iniciar sesión y gestionar tareas personales. Cuenta con documentación interactiva vía **Swagger (Flask-RESTX)** y pruebas automatizadas con **pytest**.
@@ -15,9 +14,7 @@ Una API RESTful construida con **Flask**, **SQLite** y **JWT** que permite regis
 
 ---
 
-HEAD
-## Instalación
-f41b5f3 (📚 Actualiza README con guía completa del proyecto)
+## 🛠️ Instalación
 
 1. Clona el repositorio:
 
