@@ -1,4 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# Ejecutar script para crear la base de datos
+# Instalar dependencias
+pip install -r requirements.txt
+
+# Crear base de datos
 python create_db.py
