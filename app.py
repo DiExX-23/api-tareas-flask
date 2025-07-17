@@ -30,10 +30,6 @@ class Usuario(db.Model):
     username = db.Column(db.String(80), unique=True, nullable=False)
     password = db.Column(db.String(120), nullable=False)
 
-# Crear la base de datos automáticamente si no existe
-with app.app_context():
-    db.create_all()
-
 # Esquemas de Swagger (para documentación interactiva)
 tarea_model = api.model('Tarea', {
     'id': fields.Integer(readonly=True),
@@ -131,6 +127,8 @@ def error_404(e):
 def error_500(e):
     return {"error": "Error interno del servidor"}, 500
 
-# Ejecuta la aplicación
+# Ejecuta la aplicación solo en desarrollo
 if __name__ == "__main__":
+    with app.app_context():
+        db.create_all()
     app.run(debug=True)
