@@ -3,4 +3,4 @@ flask_sqlalchemy      # ORM para manejar base de datos
 flask_jwt_extended    # Autenticación con JWT
 flask-restx           # Documentación Swagger y estructura REST
 werkzeug              # Seguridad (hash de contraseñas, etc.)
-pytest                # pytest es una herramienta para ejecutar pruebas automatizadas en Python
+pytest                # pytest es una herramienta para realizar pruebas automatizadas en Python
