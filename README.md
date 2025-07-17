@@ -14,7 +14,7 @@ Una API RESTful construida con **Flask**, **SQLite** y **JWT** que permite regis
 
 ---
 
-## 🛠️ Instalación
+## Instalación
 
 1. Clona el repositorio:
 
