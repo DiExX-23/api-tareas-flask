@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 api = Api(app, title="API de Tareas", version="1.0", description="API REST con JWT, SQLite y Swagger")
 
-# Configuración de claves y base de datos
+# Configuración de claves y las bases de datos
 app.config['JWT_SECRET_KEY'] = 'super-secreto'  # Clave para generar tokens JWT
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(os.path.abspath(os.path.dirname(__file__)), 'database.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
