@@ -131,6 +131,6 @@ def error_404(e):
 def error_500(e):
     return {"error": "Error interno del servidor"}, 500
 
-# Ejecutar la aplicación
+# Ejecuta la aplicación
 if __name__ == "__main__":
     app.run(debug=True)
