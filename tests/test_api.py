@@ -7,7 +7,7 @@ import pytest
 # Asegura que 'app.py' se pueda importar
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# 👇 Importa la app y los modelos desde app.py
+# 👇 Importa la app y los modelos desde el archivo app.py
 from app import app, db, Usuario, Tarea
 
 # 🔄 Configura la base de datos de pruebas
