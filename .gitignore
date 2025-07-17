@@ -1,0 +1,47 @@
+# Carpetas y archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Archivos de base de datos locales
+*.sqlite3
+database.db
+
+# Archivos de entorno virtual
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.env.*
+
+# Configuraciones del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editor o IDE
+.vscode/
+.idea/
+
+# Archivos de pruebas cacheados
+*.pytest_cache/
+.cache/
+
+# Archivos de despliegue temporales
+*.swp
+*.bak
+
+# Archivos personales o confidenciales
+*.key
+*.pem
+
+# Archivos de paquetes instalados
+pip-wheel-metadata/
+build/
+dist/
+
+# Archivos específicos de Windows
+ehthumbs.db
+Desktop.ini
